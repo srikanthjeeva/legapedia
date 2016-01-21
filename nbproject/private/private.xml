@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/sjeevan/projects/rails-pdf-reader/Gemfile</file>
+            <file>file:/Users/sjeevan/projects/rails-pdf-reader/config/routes.rb</file>
+            <file>file:/Users/sjeevan/projects/rails-pdf-reader/app/models/document.rb</file>
+            <file>file:/Users/sjeevan/projects/rails-pdf-reader/db/migrate/20150721200327_add_attachment_file_to_documents.rb</file>
+            <file>file:/Users/sjeevan/projects/rails-pdf-reader/config/database.yml</file>
+            <file>file:/Users/sjeevan/projects/rails-pdf-reader/db/migrate/20150721195537_create_documents.rb</file>
+        </group>
+    </open-files>
+</project-private>

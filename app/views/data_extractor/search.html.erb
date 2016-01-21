@@ -1,0 +1,19 @@
+<form class="form-inline" action="/search">
+  <div class="form-group form-group-lg col-xs-11">
+    <div class="input-group col-xs-12">
+      <label for="exampleInputEmail1">Search Legapedia</label>
+      <input type="search" class="form-control" name="query" placeholder="Enter Search Keyword here" value="<%= params[:query] %>">
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary btn-lg" style="margin-top:25px"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+</form>
+
+<% if @result %>
+    <dl >
+    <%  @result["hits"]["hits"].each do |res| %>
+        <dd class="search_result">
+            <%= res.inspect%>
+        </dd>
+    <% end %>
+    </dl>
+<% end %>
